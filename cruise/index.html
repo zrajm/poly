@@ -1,0 +1,137 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Polycruise</title>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css"><!--
+    * {
+        text-shadow: 0px 0px 1px rgba(0,0,0,0);
+        font-family: Georgia, serif;
+        line-height: 1.5em;
+        margin: 0em;
+        padding: 0em;
+    }
+
+    /* =============================================================================
+       Links
+       ========================================================================== */
+
+a { color: #00e; text-decoration: underline; }
+a:visited { color: #551a8b; }
+a:hover { color: #06e; }
+a:focus { outline: thin dotted; }
+
+/* Improve readability when focused and hovered in all browsers: h5bp.com/h */
+a:hover, a:active { outline: 0; }
+
+    /* ========================================================================== */
+
+
+    html { background-color: #ccc; }
+    body {
+        font-size: 1em;
+        background-color: #fff;
+        max-width: 30em;
+        padding: 1.5em 3em;
+	margin: 0em auto;
+	text-rendering: optimizeLegibility;
+    }
+    h1 {
+	font-style: normal;
+        font-family: Verdana, sans-serif;
+        font-weight: bold;
+        font-size: 2em;
+        line-height: 1.25em;
+        margin-top: 1.4em;
+        margin-bottom: 0.35em;
+	text-align: center;
+	word-spacing: -0.05ex;
+        letter-spacing: -0.05ex;
+    }
+    a { font-style: italic; }
+    a:hover { background-color: #ff8; }
+    img {
+        margin: 1.5em 1.5em;
+        margin-bottom: 0em;
+        /* body max-with, minus img margin & border */
+        max-width: 26em;
+        border: .5em solid black;
+    }
+    p { margin: 1.5em 0; }
+    p + p {
+        text-indent: 1.5em;
+        margin-top: -1.5em;
+    }
+    footer {
+        border-top: 2px solid black;
+        text-align: center;
+    }
+    .center { text-align: center; }
+    .hidden { display: none !important; visibility: hidden; }
+//--></style>
+</head>
+<body>
+  <h1>Polycruise</h1>
+
+  <p class=center><a onclick="display('fi');">Suomeksi</a> |
+    <a onclick="display('en')">in English</a></p>
+
+  <img src="pic/boat.jpg" title="" width=400 height=300>
+
+  <div lang=en>
+    <p>Every now and then the poly people of Sweden go on a cruise to meet our
+      friends in Finland (so far we’ve gone between Stockholm and Helsinki).
+      The cruises are quite small affairs (some tens of people) and we’re
+      usually joined by our Finnish friends, going on a cruise in the other
+      direction. It’s a chance to get together, to get to know new people, and
+      to relax. (There have been talk about cruises to Estonia as well but this
+      has not happened – at least not yet.)</p>
+
+    <p>These are closed events with a low profile, just a bunch of friends (and
+      friends of friends). This means that we’ll don’t allow press or media to
+      join us (sorry journalists!) and that we don’t discuss the particulars of
+      the cruises outside of our closed group (no posting of dates or times, or
+      of which people are going) – but if you want to come you’re welcome to
+      join the group, vote on destinations and dates, and go with us on the
+      cruise!</p>
+
+    <p>If you’re interested in joining, contact us
+      at <a href="mailto:polycruise46@gmail.com">polycruise46@<wbr>gmail<wbr>.com</a>.
+      Cruise details are discussed in a closed group on Facebook
+      (called <a href="http://www.facebook.com/groups/polycruise/">Polycruise</a>).</p>
+  </div>
+
+  <div lang=fi class=hidden>
+    <p>Toisinaan suomalaiset ja ruotsalaiset polyt päättävät lähteä yhdessä
+      risteilemäänTukholman ja Helsingin väliä ja tutustumaan yhdessä
+      kaupunkeihin. Risteilyt ovat pienen muutaman kymmenen hengen porukan
+      yhteinen tapahtuma. Risteily luo mahdollisuuden tavata ja tutustua uusiin
+      samanhenkisiin ihmisiin ja rentoutua hyvässä seurassa.</p>
+
+    <p>Tapahtuma on yksityinen ja toimii matalalla profiililla. Osallistujat
+      ovat ystäviä ja ystävien ystäviä. Emme tämän vuoksi ota lehdistön tai
+      muun median edustajia mukaan tai keskustele risteilyn ajankohdasta tai
+      muista yksityiskohdista suljetun ryhmämme ulkopuolella. Uudet jäsenet
+      ovat kuitenkin tervetulleita ryhmään ja osallistumaan risteilyyn. Jos
+      olet kiinnostunut liittymään ota meihin yhteyttä:</p>
+
+    <p><a href="mailto:polycruise46@gmail.com">polycruise46@gmail.com</a>
+      (kirjoita meille mieluiten englanniksi tai ruotsiksi). Risteilystä
+      keskustellaan myös suljetussa ryhmässä Facebookissa.</p>
+  </div>
+
+  <footer>
+    <p><small>Page by <span class="author"><a href="mailto:zrajm@zrajm.org">Zrajm
+      C Akfohg</a></span>, 2012, Uppsala.</small></p>
+  </footer>
+
+  <script src="jquery-1.8.1.min.js"></script>
+  <script><!--
+      function display(lang) {
+          $('[lang="' + lang + '"]').removeClass('hidden');
+          $('[lang]:not([lang="' + lang + '"])').addClass('hidden');
+      }
+  //--></script>
+</body>
+</html>
